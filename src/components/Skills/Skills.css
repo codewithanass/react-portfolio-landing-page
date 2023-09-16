@@ -1,0 +1,62 @@
+.skills-con {
+    background: #181818;
+}
+
+.skills-con .grid {
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 40%);
+}
+
+.skill-num {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.bar {
+    width: 70%;
+    height: 2px;
+    background: #EAEAEF;
+}
+
+.skill-heading {
+    color: #F4F4F4;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.upper {
+    justify-content: space-around;
+}
+
+.middle p {
+    margin: 0 3.3rem 12px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.bottom {
+    margin-left: 3.3rem;
+    gap: 10px;
+}
+
+.bottom div {
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+
+@media screen and (max-width:740px) {
+    .skills-con {
+        padding: 0 2rem;
+    }
+
+    .skills-con .grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

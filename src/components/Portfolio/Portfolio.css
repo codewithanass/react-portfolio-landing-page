@@ -1,0 +1,32 @@
+.portfolio-heading {
+    max-width: 526px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.portfolio-heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.portfolio-heading p {
+    font-size: 0.8rem;
+    color: var(--gray-color);
+}
+
+.portfolio-con .grid {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio-con .btn {
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width:740px) {
+    .portfolio-con .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}

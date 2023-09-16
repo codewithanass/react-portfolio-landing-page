@@ -1,0 +1,39 @@
+.brands-con {
+    background: var(--dark-color);
+}
+
+.brands-content {
+    justify-content: space-around;
+}
+
+.brands-content img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.brands-content div {
+    max-width: 360px;
+    text-align: left;
+}
+
+.brands-content div h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.brands-content div p {
+    font-size: 0.8rem;
+    color: #F1F1F1;
+}
+
+@media screen and (max-width:500px) {
+    .brands-content {
+        flex-direction: column;
+    }
+
+    .brands-content div {
+        margin: 0 auto;
+        text-align: center;
+    }
+}

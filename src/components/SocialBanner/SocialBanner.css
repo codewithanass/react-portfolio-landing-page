@@ -1,0 +1,28 @@
+.social-banner {
+    background: var(--primary-color);
+    margin-top: -8px;
+}
+
+.social-content {
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.social-content h3 {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 56px */
+}
+
+@media screen and (max-width:740px) {
+
+    .social-content {
+        flex-wrap: wrap;
+    }
+
+
+}
