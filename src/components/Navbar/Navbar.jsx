@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="logo">
             <img src={Logo} alt="site-logo" />
         </div>
-        <div className={toggleNav ? "menu active" : "menu flex"}>
+        <div className={toggleNav ? "menu active flex" : "menu flex"}>
             <ul className='flex'>
                 <FaXmark className='close-icon' size={30} onClick={handleToggleNav} />
                 <li><a href="#">Home</a></li>
